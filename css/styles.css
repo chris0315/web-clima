@@ -45,11 +45,30 @@ footer {
     border-radius: 3px;
 }
 
+.searchbox-select {
+    background-color: var(--text-color);
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 5px;
+}
+
 .search {
     width: 100%;
     background-color: var(--text-color);
     border: none;
     font-size: 1rem;
+}
+
+.search-select {
+    margin: 1rem 0;
+    width: 100%;
+    background-color: var(--text-color);
+    border: none;
+    font-size: 1rem;
+}
+
+m-2 {
+    margin: 3rem 0;
 }
 
 .search:focus {
@@ -97,4 +116,17 @@ footer {
 .weather {
     font-size: 1.8rem;
     margin-bottom: 1rem;
+}
+
+.error {
+    width: 80%;
+    height: 3rem;
+    margin: 0.5rem auto;
+    border: 1px solid rgb(168, 38, 38);
+    color: rgb(168, 38, 38);
+    text-align: center;
+}
+
+.none {
+    display: none;
 }

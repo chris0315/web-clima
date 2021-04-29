@@ -13,11 +13,25 @@
 </head>
 
 <body>
-    <main>
+    <main id="alert">
+        <div id="alert-404" class="error none"></div>
         <div class="search-form">
             <form id="search-form">
                 <div class="searchbox">
                     <input type="text" autocomplete="off" placeholder="Buscar ciudad..." class="search" id="searchbox" />
+                </div>
+                <br>
+                <div id="seacPais" class=" searchbox">
+                    <select id="pais" class="search-select search m-2">
+                        <option disabled selected value="">-- Seleccione --</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="CR">Costa Rica</option>
+                        <option value="ES">España</option>
+                        <option value="US">Estados Unidos</option>
+                        <option value="MX">México</option>
+                        <option value="PE">Perú</option>
+                    </select>
                 </div>
             </form>
         </div>
