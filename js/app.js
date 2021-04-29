@@ -45,7 +45,7 @@ const upDateImage = (data) => {
 const search = async(query, pais) => {
     try {
 
-        const res = await request(`http://api.openweathermap.org/data/2.5/weather?q=${query},${pais}&appid=${api.key}`)
+        const res = await request(`https://api.openweathermap.org/data/2.5/weather?q=${query},${pais}&appid=${api.key}`)
             //onst response = await request(`http://api.openweathermap.org/data/2.5/weather?id=${mas[0].id}&appid=${api.key}&lang=es`)
         const data = res
         card.style.display = "block"
