@@ -1,0 +1,25 @@
+{
+    "name": "web-clima",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./js/app.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "dev": "webpack --mode development"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chris0315/wed-clima.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chris0315/wed-clima/issues"
+    },
+    "homepage": "https://github.com/chris0315/wed-clima#readme",
+    "devDependencies": {
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    }
+}
